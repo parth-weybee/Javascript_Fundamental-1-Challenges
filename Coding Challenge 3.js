@@ -15,16 +15,10 @@ if (dolphineAvg > koalasAvg && dolphineAvg >= 100) {
 else if (koalasAvg > dolphineAvg && koalasAvg >= 100) {
     console.log("Team Koalas Wins")
 }
+else if (dolphineAvg===koalasAvg && dolphineAvg>=100 && koalasAvg>=100)
+{
+    console.log("Draw");
+}
 else {
-    if(koalasAvg<100)
-    {
-        console.log("Team Dolphine Wins");
-    }
-    else if(dolphineAvg<100)
-    {
-        console.log("Team Koalas Wins");
-    }
-    else{
-        console.log("Draw");
-    }
+    console.log("No one Wins");
 }
